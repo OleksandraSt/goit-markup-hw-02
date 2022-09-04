@@ -169,4 +169,32 @@ button {
     background-color: var(--primary-background-color);
 }
 
+/* Footer */
 
+.footer {
+    background-color: var(--darkbackground-color);
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-darkbackground-color);
+}
+
+.footer-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-darkbackground-color);
+}
+
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-darkbackground-color);
+}
