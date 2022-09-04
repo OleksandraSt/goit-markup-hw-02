@@ -203,6 +203,11 @@ button {
     color: var(--secondary-text-darkbackground-color);
 }
 
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
+
 /* Cторінка Portfolio */
 
 .section {
