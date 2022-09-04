@@ -66,7 +66,11 @@ button {
 
 .link-item:hover,
 .link-item:focus {
-    color: var(--primary-accent-color);
+    color: var(--accent-color);
+}
+
+.link-current {
+    color: var(--accent-color);
 }
 
 .header-contact {
@@ -197,4 +201,46 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-darkbackground-color);
+}
+
+/* Cторінка Portfolio */
+
+.section {
+    background-color: var(--primary-background-color);
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    background-color: var(--lightbackground-color);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-text-darkbackground-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.project-caps{
+text-transform: uppercase;
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
