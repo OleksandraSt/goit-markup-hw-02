@@ -10,3 +10,70 @@
     --dark-logo-color: #000000;
     --hero-button-hover-accent-color: #188CE8;
 }
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--secondary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    background-color: var(--primary-background-color);
+}
+
+.logo-header {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--dark-logo-color);
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.list-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link-item {
+    color: var(--secondary-text-color);
+}
+
+.link-item:hover,
+.link-item:focus {
+    color: var(--primary-accent-color);
+}
+
+.header-contact {
+    color: var(--primary-text-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
