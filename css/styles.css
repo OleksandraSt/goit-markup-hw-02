@@ -118,7 +118,6 @@ button {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
 }
 
 .features-description {
@@ -126,3 +125,48 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+/* Work */
+
+.work {
+    background-color: var(--primary-background-color);
+}
+
+.our-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+/* Team */
+
+.team {
+    background-color: var(--lightbackground-color);
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.card {
+    background-color: var(--primary-background-color);
+}
+
+
